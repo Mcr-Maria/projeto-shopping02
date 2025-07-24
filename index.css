@@ -1,0 +1,34 @@
+
+div{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+}
+
+.flex{
+    display: flex;
+}
+.flex-1{
+    flex: 1;
+}
+
+.gap{
+    gap: 16px;
+}
+
+.grupo{
+    display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+    div{
+        background-color: brown;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .grupo{
+        flex-direction: column;
+    }
+}
